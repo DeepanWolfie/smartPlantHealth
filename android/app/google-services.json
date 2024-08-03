@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "320182946254",
+    "project_id": "smart-plant-health",
+    "storage_bucket": "smart-plant-health.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:320182946254:android:6503a60b97e492a59dc39f",
+        "android_client_info": {
+          "package_name": "com.example.smart_plant_health"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD89y5egj38wspXJRpCKcyb_MKD50cWvC4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
