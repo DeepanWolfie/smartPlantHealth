@@ -47,7 +47,6 @@ class _HomeScreenState extends State<HomeScreen> {
       body: SingleChildScrollView(
         child: SafeArea(
             child: Column(
-          //  mainAxisAlignment: MainAxisAlignment.spaceBetween,
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Container(
@@ -63,7 +62,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   Container(
                     padding: const EdgeInsets.all(10),
                     child: const Text(
-                      "Disease dedector",
+                      "Disease dector",
                       style: TextStyle(
                         fontFamily: 'odibeeSans',
                         fontSize: 25,

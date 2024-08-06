@@ -13,8 +13,8 @@ class _AboutTeamScreenState extends State<AboutTeamScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(),
-      body: SafeArea(
-        child: SizedBox(
+      body: Column(children: [
+        SizedBox(
           width: MediaQuery.of(context).size.width,
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,
@@ -27,7 +27,69 @@ class _AboutTeamScreenState extends State<AboutTeamScreen> {
             ],
           ),
         ),
-      ),
+        const Row(
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
+          children: [
+            Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  "deepan L",
+                  style: TextStyle(
+                    overflow: TextOverflow.clip,
+                    fontSize: 25,
+                    fontFamily: 'odibeeSans',
+                  ),
+                ),
+                Text(
+                  "S Arunkumar",
+                  style: TextStyle(
+                    overflow: TextOverflow.clip,
+                    fontSize: 25,
+                    fontFamily: 'odibeeSans',
+                  ),
+                ),
+                Text(
+                  "D chandu",
+                  style: TextStyle(
+                    overflow: TextOverflow.clip,
+                    fontSize: 25,
+                    fontFamily: 'odibeeSans',
+                  ),
+                ),
+              ],
+            ),
+            Column(
+              children: [
+                Text(
+                  "VTU27119",
+                  style: TextStyle(
+                    overflow: TextOverflow.clip,
+                    fontSize: 25,
+                    fontFamily: 'odibeeSans',
+                  ),
+                ),
+                Text(
+                  "VTU27199",
+                  style: TextStyle(
+                    overflow: TextOverflow.clip,
+                    fontSize: 25,
+                    fontFamily: 'odibeeSans',
+                  ),
+                ),
+                Text(
+                  "VTU27279",
+                  style: TextStyle(
+                    overflow: TextOverflow.clip,
+                    fontSize: 25,
+                    fontFamily: 'odibeeSans',
+                  ),
+                ),
+              ],
+            ),
+          ],
+        )
+      ]),
     );
   }
 }
